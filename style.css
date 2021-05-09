@@ -1,0 +1,80 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(149, 149, 149);
+}
+a{
+    text-decoration: none;
+    color: rgb(149, 149, 149);
+}
+.container{
+    width: 1020px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---header---*/
+.logo{
+    padding: 20px 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 40px 0;
+}
+.login{
+    width: 99px;
+    height: 39px;
+    color: white;
+    background-color: rgb(188, 218, 92);
+    border: 1px solid rgb(188, 218, 92);
+    border-radius: 20px;
+    margin-top: 27px;
+}
+#banner{
+    background-image: url(images/banner.png);
+    background-size: cover;
+    padding: 165px 0;
+    text-align: center;
+}
+h1{
+    font-size: 32pt;
+    color: white;
+    font-weight: 600;
+}
+h4{
+    font-size: 20pt;
+    color: white;
+    padding: 50px 0;
+}
+.member{
+    width: 255px;
+    height: 74px;
+    color: white;
+    background-color: rgb(153, 197, 10);
+    border: 1px solid rgb(153, 197, 10);
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.2em;
+}
+#home{
+    text-align: center;
+    padding: 100px 0;
+}
+h2{
+    font-weight: 600;
+    font-size: 22pt;
+    color: black;
+    padding: 55px 0;
+}
+p{
+    padding: 28px 30px;
+    font-size: 17px;
+}
