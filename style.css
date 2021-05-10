@@ -19,6 +19,40 @@ a{
     flex-direction: column;
     align-items: center;
 }
+h2{
+    font-size: 29pt;
+    padding: 40px 0;
+}
+h1{
+    font-size: 32pt;
+    color: white;
+    font-weight: 600;
+}
+h4{
+    font-size: 20pt;
+    color: white;
+    padding: 50px 0;
+}
+h3{
+    font-weight: 600;
+    font-size: 21pt;
+    color: black;
+    line-height: 50px;
+}
+p{
+    padding: 20px 30px;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 30px;
+}
+.green{
+    color: rgb(153, 197, 10);
+}
+h5{
+    font-size: 17pt;
+    padding: 0 30px;
+    font-weight: 600;
+}
 /*---header---*/
 .logo{
     padding: 20px 0;
@@ -38,21 +72,12 @@ a{
     border-radius: 20px;
     margin-top: 27px;
 }
+/*---main---*/
 #banner{
     background-image: url(images/banner.png);
     background-size: cover;
     padding: 165px 0;
     text-align: center;
-}
-h1{
-    font-size: 32pt;
-    color: white;
-    font-weight: 600;
-}
-h4{
-    font-size: 20pt;
-    color: white;
-    padding: 50px 0;
 }
 .member{
     width: 255px;
@@ -68,13 +93,180 @@ h4{
     text-align: center;
     padding: 100px 0;
 }
-h2{
-    font-weight: 600;
-    font-size: 22pt;
-    color: black;
-    padding: 55px 0;
+.circle{
+    width: 45px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17pt;
+    margin-right: 35px;
 }
-p{
-    padding: 28px 30px;
-    font-size: 17px;
+.tabs{
+    display: flex;
+    font-weight: 400;
+    font-size: 22pt;
+    text-align: left;
+    line-height: 45px;
+    margin: 40px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(149, 149, 149);
+}
+#project{
+    margin: 30px 0;
+}
+.col-3{
+    text-align: center;
+}
+.col-9, .glasses img{
+    padding: 40px 0; 
+}
+.blue{
+    background-color: #e2f8ff;
+}
+.yelgreen{
+    background-color: #f5f9eb;
+}
+.color-blue-btn{
+    width: 190px;
+    height: 51px;
+    background-color: #26a6d1;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 10.5pt;
+}
+.color-green-btn{
+    width: 190px;
+    height: 51px;
+    background-color: rgb(153, 197, 10);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 10.5pt;
+}
+.col-6{
+    padding: 35px 0;
+    color: black;
+}
+.image{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+#blog{
+    padding: 0 50px;
+}
+#blog p{
+    padding: 30px 0;
+}
+.project-img{
+    background-image: url(images/city-1.png);
+    background-position: -90px -95px;
+    width: 100%;
+    height: 230px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.project-img-2{
+    background-image: url(images/city-2.png);
+    background-position: -130px -100px;
+    width: 100%;
+    height: 230px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+h6{
+    font-size: 13pt;
+    color: black;
+    font-weight: 600;
+    margin: 15px 0;
+}
+#blog .project-info p{
+    font-size: 10pt;
+    padding: 0;
+}
+.project-info{
+    padding: 25px;
+    background-color: rgb(248,248,248);
+    border: 0;
+    border-radius: 0 0 10px 10px;
+}
+hr{
+    width: 100%;
+    height: 1px;
+}
+progress{
+    width: 100%;
+    height: 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(149, 149, 149);
+    margin: 20px 0;
+}
+progress::-webkit-progress-bar{
+    width: 100%;
+    height: 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(149, 149, 149);
+}
+progress::-webkit-progress-value{
+    width: 100%;
+    height: 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(153, 197, 10);
+}
+progress::-moz-progress-bar{
+    width: 100%;
+    height: 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(149, 149, 149);
+    margin: 20px 0;
+}
+#blog .col-4{
+    border: 0;
+    border-radius: 15px;
+    margin: 20px;
+}
+.details{
+    text-align: right;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.details img{
+    margin: -3px 10px;
+}
+#testimonial{
+    padding: 40px;
+    background-image: url(images/sec-5-bg.png);
+    background-size: 100%;
+    color: rgb(95, 95, 95);
+    height: 565px;
+}
+.col-11{
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+.col-11 p{
+    font-size: 10pt;
+}
+/*---footer---*/
+footer{
+    text-align: center;
+}
+.links, .copyright{
+    padding: 25px 0;
 }
