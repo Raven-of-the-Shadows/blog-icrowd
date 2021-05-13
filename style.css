@@ -24,9 +24,10 @@ h2{
     padding: 40px 0;
 }
 h1{
-    font-size: 32pt;
+    font-size: 34pt;
     color: white;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 h4{
     font-size: 20pt;
@@ -114,6 +115,12 @@ h5{
     margin: 40px 0;
     padding: 20px 0;
     border-bottom: 1px solid rgb(149, 149, 149);
+}
+.tabs:hover{
+    border-bottom: 1px solid rgb(153, 197, 10);
+}
+.tabs:hover .circle:hover{
+    background-color: rgb(153, 197, 10);
 }
 #project{
     margin: 30px 0;
@@ -237,6 +244,16 @@ progress::-moz-progress-bar{
     border-radius: 15px;
     margin: 20px;
 }
+.proj-btn{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(149, 149, 149);
+    color: rgb(149, 149, 149);
+    font-weight: 600;
+    margin-top: 20px;
+}
 .details{
     text-align: right;
     margin-top: 25px;
@@ -246,11 +263,11 @@ progress::-moz-progress-bar{
     margin: -3px 10px;
 }
 #testimonial{
-    padding: 40px;
+    padding: 0px 40px;
     background-image: url(images/sec-5-bg.png);
     background-size: 100%;
     color: rgb(95, 95, 95);
-    height: 565px;
+    background-position-y: -80px;
 }
 .col-11{
     background-color: white;
@@ -262,6 +279,30 @@ progress::-moz-progress-bar{
 }
 .col-11 p{
     font-size: 10pt;
+}
+.testim-img{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 10px;
+    background-image: url(images/beck-2.png);
+    background-position: -5px -5px;
+    margin: 35px 0;
+}
+.testim-img-2{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 10px;
+    background-image: url(images/beck-1.png);
+    background-position: -5px -5px;
+    margin: 35px 0;
+}
+.testim-name{
+    margin: 40px 20px;
+}
+.mont{
+    font-family: 'montserrat', sans-serif;
 }
 /*---footer---*/
 footer{
